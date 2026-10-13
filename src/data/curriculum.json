@@ -1,0 +1,968 @@
+[
+  {
+    "n": 1,
+    "title": "Programming Fundamentals + CS Basics",
+    "goal": "Build strong programming and computer science foundations.",
+    "topics": [
+      {
+        "title": "Computer and programming fundamentals",
+        "subs": [
+          "What programming is",
+          "Source code, compilers, and interpreters",
+          "Algorithms and pseudocode",
+          "Basic problem decomposition",
+          "How computers work",
+          "CPU, memory, storage, and input/output",
+          "Binary and number representation fundamentals",
+          "Operating system fundamentals",
+          "Files, directories, and command-line basics"
+        ]
+      },
+      {
+        "title": "Python fundamentals",
+        "subs": [
+          "Python installation and environment setup",
+          "Variables and naming conventions",
+          "Data types",
+          "Type conversion",
+          "Operators and expressions",
+          "Input and output",
+          "String operations",
+          "Conditions: if, elif, else",
+          "For loops and while loops",
+          "Break, continue, and loop control",
+          "Functions and parameters",
+          "Return values",
+          "Variable scope",
+          "Lists",
+          "Tuples",
+          "Sets",
+          "Dictionaries",
+          "Iteration and basic collection operations",
+          "File reading and writing",
+          "Exceptions and error handling",
+          "Basic debugging",
+          "Basic unit testing",
+          "Simple problem-solving exercises"
+        ]
+      },
+      {
+        "title": "Development workflow",
+        "subs": [
+          "Terminal basics",
+          "Git initialization",
+          "Commits",
+          "Branches",
+          "GitHub repositories",
+          "README writing",
+          "Basic time and space complexity"
+        ]
+      }
+    ],
+    "resources": [
+      {
+        "name": "Harvard CS50x",
+        "url": "https://cs50.harvard.edu/x/"
+      },
+      {
+        "name": "Python tutorial",
+        "url": "https://docs.python.org/3/tutorial/"
+      },
+      {
+        "name": "Python standard library",
+        "url": "https://docs.python.org/3/library/"
+      },
+      {
+        "name": "freeCodeCamp",
+        "url": "https://www.freecodecamp.org/learn/"
+      },
+      {
+        "name": "Corey Schafer",
+        "url": "https://www.youtube.com/@coreyms"
+      },
+      {
+        "name": "GitHub Skills",
+        "url": "https://skills.github.com/"
+      }
+    ],
+    "project": {
+      "title": "Simple Calculator Application",
+      "description": "Build a Python command-line calculator.",
+      "criteria": [
+        "Addition.",
+        "Subtraction.",
+        "Multiplication.",
+        "Division.",
+        "Menu-based user interface.",
+        "Input validation.",
+        "Division-by-zero handling.",
+        "Functions for separate operations.",
+        "Loop to continue calculations.",
+        "Graceful exit.",
+        "Meaningful error messages.",
+        "Clean code structure.",
+        "At least 10 manual or automated test cases.",
+        "README with installation, usage, examples, and known limitations.",
+        "GitHub repository link."
+      ],
+      "bonus": ["Modulo.", "Exponentiation.", "Calculation history.", "Automated unit tests."]
+    },
+    "completionRule": "Month 1 is complete only after its required topics and mandatory milestone criteria are satisfied and the user confirms completion."
+  },
+  {
+    "n": 2,
+    "title": "OOP, Clean Code + Design Patterns",
+    "goal": "Learn to write reusable, scalable, maintainable software.",
+    "topics": [
+      {
+        "title": "Object-oriented programming",
+        "subs": [
+          "Classes and objects",
+          "Attributes and methods",
+          "Constructors and initialization",
+          "Instance attributes",
+          "Class attributes",
+          "Encapsulation",
+          "Inheritance",
+          "Method overriding",
+          "Polymorphism",
+          "Abstraction",
+          "Abstract classes and interfaces where appropriate",
+          "Composition",
+          "Association and aggregation",
+          "Object relationships",
+          "Type hints",
+          "Exception handling in class design"
+        ]
+      },
+      {
+        "title": "Clean code",
+        "subs": [
+          "Meaningful naming",
+          "Single responsibility",
+          "Separation of concerns",
+          "DRY",
+          "KISS",
+          "SOLID principles",
+          "Dependency inversion",
+          "Modular folder structures",
+          "Reusable components",
+          "Unit testing",
+          "Refactoring",
+          "Code review fundamentals"
+        ]
+      },
+      {
+        "title": "Design patterns",
+        "subs": [
+          "Factory",
+          "Singleton and its trade-offs",
+          "Strategy",
+          "Observer",
+          "Choosing patterns appropriately",
+          "Avoiding unnecessary abstraction"
+        ]
+      }
+    ],
+    "resources": [
+      {
+        "name": "Corey Schafer",
+        "url": "https://www.youtube.com/@coreyms"
+      },
+      {
+        "name": "ArjanCodes",
+        "url": "https://www.youtube.com/@ArjanCodes"
+      },
+      {
+        "name": "Refactoring Guru",
+        "url": "https://refactoring.guru/design-patterns"
+      },
+      {
+        "name": "Python unittest",
+        "url": "https://docs.python.org/3/library/unittest.html"
+      },
+      {
+        "name": "Python typing",
+        "url": "https://docs.python.org/3/library/typing.html"
+      }
+    ],
+    "project": {
+      "title": "Library Management System",
+      "description": "Build a console-based library management application using object-oriented programming.",
+      "criteria": [
+        "Add, update, remove, and search books.",
+        "Borrow and return books.",
+        "Represent users and administrators.",
+        "Validate book availability.",
+        "Prevent invalid borrowing and returns.",
+        "Implement suitable classes with clear responsibilities.",
+        "Demonstrate encapsulation and composition.",
+        "Use inheritance and polymorphism where justified.",
+        "Implement at least one appropriate design pattern.",
+        "Persist records to a file or database.",
+        "Validate user input.",
+        "Include unit tests.",
+        "Use a clean folder structure.",
+        "Include setup instructions and a README.",
+        "Publish the project on GitHub."
+      ],
+      "bonus": [
+        "Book reservation.",
+        "Borrowing history.",
+        "Late-return tracking.",
+        "Search filters."
+      ]
+    }
+  },
+  {
+    "n": 3,
+    "title": "DSA + Problem Solving",
+    "goal": "Become comfortable solving coding problems and understanding algorithms.",
+    "topics": [
+      {
+        "title": "Complexity and problem-solving",
+        "subs": [
+          "Big-O notation",
+          "Time complexity",
+          "Space complexity",
+          "Best, average, and worst cases",
+          "Brute force versus optimized solutions",
+          "Edge cases",
+          "Test-case design",
+          "Dry runs",
+          "Complexity analysis"
+        ]
+      },
+      {
+        "title": "Data structures",
+        "subs": [
+          "Arrays",
+          "Strings",
+          "Linked lists",
+          "Stacks",
+          "Queues",
+          "Hash maps",
+          "Hash sets",
+          "Trees",
+          "Binary search trees",
+          "Heaps",
+          "Priority queues",
+          "Graphs",
+          "Adjacency lists and matrices"
+        ]
+      },
+      {
+        "title": "Algorithms and patterns",
+        "subs": [
+          "Linear search",
+          "Binary search",
+          "Sorting algorithms",
+          "Recursion",
+          "Backtracking",
+          "Two pointers",
+          "Sliding window",
+          "Prefix sums",
+          "Fast and slow pointers",
+          "BFS",
+          "DFS",
+          "Greedy algorithms",
+          "Dynamic programming fundamentals",
+          "Graph traversal",
+          "Problem-pattern recognition"
+        ]
+      },
+      {
+        "title": "Practice workflow",
+        "subs": [
+          "Understanding problem statements",
+          "Writing brute-force solutions",
+          "Improving complexity",
+          "Debugging failed test cases",
+          "Recording mistakes",
+          "Re-solving previously attempted problems",
+          "Writing solution explanations"
+        ]
+      }
+    ],
+    "resources": [
+      {
+        "name": "NeetCode",
+        "url": "https://neetcode.io/"
+      },
+      {
+        "name": "NeetCode YouTube",
+        "url": "https://www.youtube.com/@NeetCode"
+      },
+      {
+        "name": "VisuAlgo",
+        "url": "https://visualgo.net/en"
+      },
+      {
+        "name": "Abdul Bari",
+        "url": "https://www.youtube.com/@abdul_bari"
+      },
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problemset/"
+      }
+    ],
+    "project": {
+      "title": "DSA Tracker App",
+      "description": "Build a personal application for tracking coding problems.",
+      "criteria": [
+        "Add and edit problems.",
+        "Store title, platform, external URL, topic, and difficulty.",
+        "Track To Do, Attempted, Solved, and Needs Revision statuses.",
+        "Record attempts and time spent.",
+        "Save solution notes and mistakes.",
+        "Store programming language and complexity analysis.",
+        "Provide topic-wise filters.",
+        "Display progress by difficulty.",
+        "Show daily and weekly solved counts.",
+        "Track revision dates.",
+        "Calculate practice streaks from recorded activity.",
+        "Persist records.",
+        "Provide a responsive interface.",
+        "Include tests and documentation."
+      ],
+      "bonus": [
+        "Import problem records from CSV.",
+        "Export data.",
+        "Visualize topic mastery.",
+        "Add spaced-repetition recommendations."
+      ]
+    }
+  },
+  {
+    "n": 4,
+    "title": "Backend Development with FastAPI",
+    "goal": "Build reliable APIs and learn production backend fundamentals.",
+    "topics": [
+      {
+        "title": "Web fundamentals",
+        "subs": [
+          "HTTP and HTTPS",
+          "Request and response structure",
+          "HTTP methods",
+          "Status codes",
+          "Headers",
+          "REST conventions",
+          "JSON",
+          "API design",
+          "API versioning basics"
+        ]
+      },
+      {
+        "title": "FastAPI",
+        "subs": [
+          "Application setup",
+          "Routing",
+          "Path and query parameters",
+          "Request bodies",
+          "Pydantic validation",
+          "Response models",
+          "Dependency injection",
+          "Middleware",
+          "Exception handling",
+          "Logging",
+          "Pagination",
+          "Filtering and sorting",
+          "Swagger/OpenAPI documentation"
+        ]
+      },
+      {
+        "title": "Authentication and security",
+        "subs": [
+          "Registration and login",
+          "Password hashing",
+          "Authentication versus authorization",
+          "JWT access tokens",
+          "Refresh-token concepts",
+          "Role-based access control",
+          "Environment variables",
+          "Secret management",
+          "Input validation",
+          "Rate limiting",
+          "CORS",
+          "Basic API security"
+        ]
+      },
+      {
+        "title": "Database engineering",
+        "subs": [
+          "PostgreSQL fundamentals",
+          "Tables and relationships",
+          "Primary and foreign keys",
+          "Constraints",
+          "SQL queries",
+          "Joins",
+          "Aggregations",
+          "Indexes",
+          "Normalization",
+          "Transactions",
+          "SQLAlchemy",
+          "Alembic migrations"
+        ]
+      },
+      {
+        "title": "Delivery",
+        "subs": [
+          "API testing",
+          "Integration testing",
+          "Docker fundamentals",
+          "Docker Compose",
+          "Environment configuration",
+          "Deployment",
+          "Health checks",
+          "Error monitoring"
+        ]
+      }
+    ],
+    "resources": [
+      {
+        "name": "FastAPI",
+        "url": "https://fastapi.tiangolo.com/tutorial/"
+      },
+      {
+        "name": "PostgreSQL",
+        "url": "https://www.postgresql.org/docs/"
+      },
+      {
+        "name": "SQLAlchemy",
+        "url": "https://docs.sqlalchemy.org/"
+      },
+      {
+        "name": "Alembic",
+        "url": "https://alembic.sqlalchemy.org/"
+      },
+      {
+        "name": "Docker",
+        "url": "https://docs.docker.com/get-started/"
+      },
+      {
+        "name": "freeCodeCamp",
+        "url": "https://www.freecodecamp.org/learn/"
+      }
+    ],
+    "project": {
+      "title": "Production-Ready Task Management API",
+      "description": "",
+      "criteria": [
+        "Secure registration and login.",
+        "Password hashing.",
+        "Authentication-protected endpoints.",
+        "CRUD operations for tasks.",
+        "PostgreSQL persistence.",
+        "Proper database relationships.",
+        "Users can access only their own tasks.",
+        "Request and response validation.",
+        "Consistent error handling.",
+        "Pagination and filtering.",
+        "Database migrations.",
+        "Automated tests.",
+        "Docker configuration.",
+        "Interactive API documentation.",
+        "Environment-variable documentation.",
+        "Deployment instructions.",
+        "GitHub repository with a useful README."
+      ],
+      "bonus": [
+        "Refresh-token rotation.",
+        "Role-based permissions.",
+        "CI/CD pipeline.",
+        "Request rate limiting.",
+        "Structured logs and monitoring."
+      ]
+    }
+  },
+  {
+    "n": 5,
+    "title": "Frontend Development + Full Stack Integration",
+    "goal": "Build and deploy a complete application connected to a backend.",
+    "topics": [
+      {
+        "title": "HTML and CSS",
+        "subs": [
+          "Semantic HTML",
+          "Forms and inputs",
+          "Accessibility fundamentals",
+          "CSS selectors",
+          "Box model",
+          "Flexbox",
+          "Grid",
+          "Responsive design",
+          "Media queries",
+          "Typography",
+          "Layout and reusable styles"
+        ]
+      },
+      {
+        "title": "JavaScript",
+        "subs": [
+          "Variables and data types",
+          "Conditions and loops",
+          "Functions",
+          "Arrays and objects",
+          "Array methods",
+          "DOM fundamentals",
+          "ES modules",
+          "Destructuring",
+          "Spread and rest syntax",
+          "Promises",
+          "Async/await",
+          "Fetch API",
+          "Error handling",
+          "JSON"
+        ]
+      },
+      {
+        "title": "React",
+        "subs": [
+          "Components",
+          "Props",
+          "State",
+          "Event handling",
+          "Conditional rendering",
+          "Lists and keys",
+          "useState",
+          "useEffect",
+          "useContext",
+          "Forms",
+          "Component composition",
+          "Reusable UI patterns",
+          "Frontend testing"
+        ]
+      },
+      {
+        "title": "Next.js and integration",
+        "subs": [
+          "App Router",
+          "Pages and layouts",
+          "Dynamic routes",
+          "Server and client components",
+          "Route handlers",
+          "Data fetching",
+          "Authentication UI",
+          "API integration",
+          "Loading states",
+          "Error states",
+          "Environment variables",
+          "SEO fundamentals",
+          "Deployment",
+          "Accessibility",
+          "Basic web security"
+        ]
+      }
+    ],
+    "resources": [
+      {
+        "name": "MDN Web Docs",
+        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development"
+      },
+      {
+        "name": "JavaScript.info",
+        "url": "https://javascript.info/"
+      },
+      {
+        "name": "React",
+        "url": "https://react.dev/learn"
+      },
+      {
+        "name": "Next.js",
+        "url": "https://nextjs.org/docs"
+      },
+      {
+        "name": "TypeScript",
+        "url": "https://www.typescriptlang.org/docs/"
+      },
+      {
+        "name": "freeCodeCamp",
+        "url": "https://www.freecodecamp.org/learn/"
+      }
+    ],
+    "project": {
+      "title": "Full Stack SaaS Application",
+      "description": "Let the user select exactly one primary idea: - AI Notes App. - Expense Tracker. - Resume Analyzer. - Habit Tracker.",
+      "criteria": [
+        "Responsive frontend.",
+        "Backend API integration.",
+        "Authentication.",
+        "Persistent database.",
+        "Complete core user workflow.",
+        "Input validation.",
+        "Loading, error, and empty states.",
+        "Appropriate access control.",
+        "Automated tests for critical flows.",
+        "Deployment.",
+        "README.",
+        "Screenshots or demo.",
+        "Architecture overview.",
+        "GitHub repository."
+      ],
+      "bonus": [
+        "Payments in test mode.",
+        "Email notifications.",
+        "Dashboard analytics.",
+        "AI functionality for the selected application.",
+        "CI/CD automation."
+      ]
+    }
+  },
+  {
+    "n": 6,
+    "title": "System Design + Scalable Architecture",
+    "goal": "Understand how production software systems are designed.",
+    "topics": [
+      {
+        "title": "System design foundations",
+        "subs": [
+          "Functional requirements",
+          "Non-functional requirements",
+          "Latency",
+          "Throughput",
+          "Availability",
+          "Reliability",
+          "Scalability",
+          "Capacity estimation",
+          "Bottleneck analysis"
+        ]
+      },
+      {
+        "title": "Infrastructure",
+        "subs": [
+          "Vertical scaling",
+          "Horizontal scaling",
+          "Load balancing",
+          "CDNs",
+          "Reverse proxies",
+          "Caching",
+          "Cache invalidation",
+          "Rate limiting",
+          "Message queues",
+          "Asynchronous processing"
+        ]
+      },
+      {
+        "title": "Data architecture",
+        "subs": [
+          "Relational databases",
+          "NoSQL databases",
+          "Database indexes",
+          "Replication",
+          "Partitioning",
+          "Sharding concepts",
+          "Transactions",
+          "Consistency models",
+          "CAP theorem and trade-offs"
+        ]
+      },
+      {
+        "title": "Architecture",
+        "subs": [
+          "Monoliths",
+          "Modular monoliths",
+          "Microservices",
+          "Service communication",
+          "API gateways",
+          "Idempotency",
+          "Fault tolerance",
+          "Observability",
+          "Logging and metrics",
+          "Architecture diagrams",
+          "Trade-off documentation"
+        ]
+      }
+    ],
+    "resources": [
+      {
+        "name": "System Design Primer",
+        "url": "https://github.com/donnemartin/system-design-primer"
+      },
+      {
+        "name": "Gaurav Sen",
+        "url": "https://www.youtube.com/@gkcs"
+      },
+      {
+        "name": "Designing Data-Intensive Applications",
+        "url": "https://dataintensive.net/"
+      },
+      {
+        "name": "PostgreSQL",
+        "url": "https://www.postgresql.org/docs/"
+      }
+    ],
+    "project": {
+      "title": "Scalable URL Shortener",
+      "description": "",
+      "criteria": [
+        "API for creating shortened URLs.",
+        "Unique short-code generation.",
+        "Redirect endpoint.",
+        "Input validation.",
+        "URL expiration rules.",
+        "Database schema and indexes.",
+        "Basic click analytics.",
+        "Rate-limiting strategy.",
+        "Caching strategy.",
+        "Architecture diagram.",
+        "Capacity and bottleneck analysis.",
+        "Scaling plan.",
+        "Docker setup.",
+        "Automated tests.",
+        "README and technical design document.",
+        "GitHub repository."
+      ],
+      "bonus": []
+    }
+  },
+  {
+    "n": 7,
+    "title": "AI Engineering Foundations",
+    "goal": "Understand LLMs and build real AI-powered applications.",
+    "topics": [
+      {
+        "title": "AI foundations",
+        "subs": [
+          "Artificial intelligence overview",
+          "Machine learning versus deep learning",
+          "Neural network fundamentals",
+          "Large language models",
+          "Transformer architecture",
+          "Training versus inference",
+          "Tokens and tokenization",
+          "Embeddings",
+          "Context windows"
+        ]
+      },
+      {
+        "title": "Prompting and model APIs",
+        "subs": [
+          "Prompt engineering",
+          "System, developer, and user instructions",
+          "Prompt templates",
+          "API authentication",
+          "Model selection",
+          "Sampling parameters",
+          "Structured outputs",
+          "JSON schema validation",
+          "Tool and function calling",
+          "Streaming responses"
+        ]
+      },
+      {
+        "title": "AI application engineering",
+        "subs": [
+          "Conversation history",
+          "Memory concepts",
+          "API retries",
+          "Rate limits",
+          "Token usage and cost management",
+          "Error handling",
+          "Logging",
+          "Evaluation datasets",
+          "Hallucination detection",
+          "Grounding and citations",
+          "Prompt injection",
+          "Safety and access control",
+          "Latency monitoring"
+        ]
+      }
+    ],
+    "resources": [
+      {
+        "name": "Andrej Karpathy",
+        "url": "https://www.youtube.com/@AndrejKarpathy"
+      },
+      {
+        "name": "OpenAI developer documentation",
+        "url": "https://developers.openai.com/"
+      },
+      {
+        "name": "Hugging Face courses",
+        "url": "https://huggingface.co/learn"
+      },
+      {
+        "name": "AI Engineering by Chip Huyen",
+        "url": "https://huyenchip.com/ai-engineering/"
+      },
+      {
+        "name": "DeepLearning.AI",
+        "url": "https://www.deeplearning.ai/short-courses/"
+      }
+    ],
+    "project": {
+      "title": "AI Chat Application",
+      "description": "",
+      "criteria": [
+        "Chat-style interface.",
+        "Real model API integration.",
+        "Streaming responses.",
+        "Persistent conversation history.",
+        "Conversation creation and deletion.",
+        "Reusable prompt templates.",
+        "Structured outputs for at least one workflow.",
+        "Robust loading and error states.",
+        "API keys stored only on the server.",
+        "Usage and error monitoring.",
+        "Rate limits or equivalent usage controls.",
+        "Evaluation with a small test dataset.",
+        "Deployed application.",
+        "README and GitHub repository."
+      ],
+      "bonus": [
+        "Conversation search.",
+        "Export conversations.",
+        "User-configurable prompts.",
+        "Multiple model providers.",
+        "File attachments with safe validation."
+      ]
+    }
+  },
+  {
+    "n": 8,
+    "title": "RAG + MCP + Agentic AI",
+    "goal": "Build retrieval-based AI systems and controlled tool-using agents.",
+    "topics": [
+      {
+        "title": "Embeddings and search",
+        "subs": [
+          "Embeddings in practice",
+          "Vector similarity",
+          "Distance metrics",
+          "Chunking strategies",
+          "Document ingestion",
+          "PDF text extraction",
+          "Metadata",
+          "Vector databases",
+          "Metadata filtering",
+          "Semantic search",
+          "Hybrid search",
+          "Reranking"
+        ]
+      },
+      {
+        "title": "Retrieval-augmented generation",
+        "subs": [
+          "RAG architecture",
+          "Retrieval pipelines",
+          "Context assembly",
+          "Source attribution",
+          "Citations",
+          "Retrieval quality",
+          "Answer grounding",
+          "RAG evaluation",
+          "Failure analysis",
+          "Index updates",
+          "Document permissions"
+        ]
+      },
+      {
+        "title": "MCP and tools",
+        "subs": [
+          "Model Context Protocol concepts",
+          "MCP clients and servers",
+          "MCP tools",
+          "MCP resources",
+          "MCP prompts",
+          "Tool schemas",
+          "Tool execution",
+          "Authentication and permissions",
+          "Error handling",
+          "Untrusted tool outputs"
+        ]
+      },
+      {
+        "title": "Agentic AI",
+        "subs": [
+          "Tool calling",
+          "Task decomposition",
+          "Planning",
+          "Workflow orchestration",
+          "Memory systems",
+          "Agent state",
+          "Controlled execution loops",
+          "Multi-agent patterns",
+          "Agent evaluation",
+          "Failure recovery",
+          "Observability",
+          "Human approval for sensitive actions"
+        ]
+      },
+      {
+        "title": "Production readiness",
+        "subs": [
+          "Prompt injection",
+          "Malicious document handling",
+          "Data isolation",
+          "File size limits",
+          "Cost control",
+          "Timeouts",
+          "Rate limits",
+          "Audit logs",
+          "Permission boundaries"
+        ]
+      }
+    ],
+    "resources": [
+      {
+        "name": "DeepLearning.AI",
+        "url": "https://www.deeplearning.ai/short-courses/"
+      },
+      {
+        "name": "MCP documentation",
+        "url": "https://modelcontextprotocol.io/"
+      },
+      {
+        "name": "LlamaIndex",
+        "url": "https://docs.llamaindex.ai/"
+      },
+      {
+        "name": "LangChain",
+        "url": "https://docs.langchain.com/"
+      },
+      {
+        "name": "OpenAI developer documentation",
+        "url": "https://developers.openai.com/"
+      },
+      {
+        "name": "Hugging Face courses",
+        "url": "https://huggingface.co/learn"
+      }
+    ],
+    "project": {
+      "title": "AI Research Assistant",
+      "description": "",
+      "criteria": [
+        "Upload PDF documents.",
+        "Validate file types and file sizes.",
+        "Extract document text.",
+        "Preserve document and page metadata where available.",
+        "Chunk document text.",
+        "Generate embeddings.",
+        "Store embeddings in a vector store.",
+        "Perform semantic retrieval.",
+        "Answer questions using retrieved context.",
+        "Cite source documents and page numbers when available.",
+        "Provide a web-search tool with safeguards.",
+        "Integrate an MCP client or server using the documented protocol.",
+        "Implement at least one controlled tool-using workflow.",
+        "Preserve relevant conversation context.",
+        "Evaluate retrieval quality and answer grounding.",
+        "Handle malformed documents and retrieval failures.",
+        "Enforce authentication and file permissions.",
+        "Protect against prompt injection and unsafe tool calls.",
+        "Document latency, cost, and architectural trade-offs.",
+        "Deploy the application.",
+        "Publish a README, architecture diagram, and GitHub repository."
+      ],
+      "bonus": [
+        "Reranking.",
+        "Hybrid search.",
+        "Multi-agent collaboration.",
+        "Evaluation dashboards.",
+        "Multiple vector-store backends.",
+        "User-controlled research workflows."
+      ]
+    }
+  }
+]
